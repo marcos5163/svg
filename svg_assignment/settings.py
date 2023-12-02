@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'svg_db',
-        'USER': 'svg_user',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'USER': 'svg_db_user',
+        'PASSWORD': 'kBb5UYXD9re7yKAjbHHQXOXKTe4jDtqz',
+        'HOST': 'dpg-cllcnjvq7omc73ckeqvg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }

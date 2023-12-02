@@ -3,6 +3,9 @@ from app.models import Game
 
 
 class GameSerializer(serializers.Serializer):
+    id = serializers.IntegerField(read_only = True)
+    uuid = serializers.UUIDField(read_only  = True)
+    is_active = serializers.BooleanField(read_only=True)
     name = serializers.CharField()
     url = serializers.URLField()
     author = serializers.CharField()
